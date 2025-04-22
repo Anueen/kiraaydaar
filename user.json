@@ -1,0 +1,26 @@
+{
+  "users": [
+    {
+      "userType": "tenant",
+      "username": "johndoe",
+      "fullName": "John Doe",
+      "phoneNumber": "+91 1234567890",
+      "email": "john@example.com",
+      "password": "12345",
+      "termsAccepted": true,
+      "referralSource": "Friends or Family",
+      "registrationDate": "2024-03-15"
+    },
+    {
+      "userType": "admin",
+      "username": "admin",
+      "fullName": "Admin work",
+      "phoneNumber": "+91 1234567890",
+      "email": "john@example.com",
+      "password": "Admin",
+      "termsAccepted": true,
+      "referralSource": "Other",
+      "registrationDate": "2024-03-15"
+    }
+  ]
+}

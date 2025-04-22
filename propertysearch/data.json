@@ -1,0 +1,870 @@
+
+{
+  "location": {
+    "kharar" : {
+      "00001": {
+      "name": "PG for boys independent rooms",
+      "price": "₹4,500",
+      "listingType": "PG",
+      "availability": "Immediately",
+      "location": "Garden Colony, Kharar, Punjab",
+      "description": "PG for boys with attached washroom, kitchen, inverter and fridge. Well-maintained property in a prime location.",
+      "amenities": [
+        { "name": "Attached Bathroom", "icon": "fas fa-bath" },
+        { "name": "Kitchen", "icon": "fas fa-utensils" },
+        { "name": "Inverter Backup", "icon": "fas fa-bolt" },
+        { "name": "Refrigerator", "icon": "fas fa-snowflake" },
+        { "name": "Furnished Room", "icon": "fas fa-bed" },
+        { "name": "Water Supply", "icon": "fas fa-tint" },
+        { "name": "Security", "icon": "fas fa-shield-alt" },
+        { "name": "Parking", "icon": "fas fa-parking" }
+      ],
+      "residenceDetails": {
+        "buildingType": "Independent Building",
+        "furnished": "Fully Furnished",
+        "moveInFee": "₹5,000",
+        "utilitiesCost": "₹500",
+        "securityDeposit": "₹10,000",
+        "maintenanceFee": "₹200",
+        "roomType": "Single Occupancy",
+        "floorNumber": "2"
+      },
+      "household": {
+        "ageRange": "18 - 30",
+        "gender": "Male",
+        "totalOccupants": 4,
+        "currentResidents": 3,
+        "language": ["English", "Hindi", "Punjabi"]
+      },
+      "lifestyle": {
+        "cleanliness": "High",
+        "overnightGuests": "Not Allowed",
+        "partyHabits": "Not Allowed",
+        "schedule": "Flexible",
+        "smoker": "No",
+        "workSchedule": "Flexible",
+        "occupation": "Student/Professional",
+        "petFriendly": "No",
+        "alcoholConsumption": "Not Allowed",
+        "dietaryPreferences": ["Non-Vegetarian", "Vegetarian"]
+      },
+      "roommatePreference": {
+        "ageRange": "18 - 30",
+        "smoking": "No",
+        "occupation": ["Student", "Working Professional"],
+        "gender": "Male",
+        "language": ["English", "Hindi", "Punjabi"]
+      },
+      "owner": {
+        "name": "Harjeet Singh",
+        "age": 45,
+        "gender": "Male",
+        "image": "img/Blank.webp"
+      },
+"map": "https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d13715.501780915436!2d76.635!3d30.750000000000004!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzDCsDQ1JzAwLjAiTiA3NsKwMzgnMDYuMCJF!5e0!3m2!1sen!2sus!4v1744975977198!5m2!1sen!2sus",
+      "img": [
+        "PG/Kharar/00001/1.jpeg",
+        "PG/Kharar/00001/2.jpeg",
+        "PG/Kharar/00001/3.jpeg",
+        "PG/Kharar/00001/4.jpeg",
+        "PG/Kharar/00001/5.jpeg"
+      ]
+    },
+      "00003": {
+        "name": "Non AC PG Room for Boys – 1st Floor, Kharar",
+        "price": "₹5,500/month",
+        "listingType": ["PG", "1st Floor", "Girls"],
+        "availability": "28-Feb-2024",
+        "location": "Kharar, Punjab",
+        "description": "Fully furnished non-AC room PG for boys with bed, bath, parking and cooking amenities. Ideal for students. Spacious 500 sq. ft. unit on the 1st floor.",
+        "specs": {
+          "beds": 1,
+          "bath": 1,
+          "parking": 1,
+          "areaSqFt": 500
+        },
+        "amenities": [
+          { "name": "Gas and Stove", "icon": "fas fa-fire" },
+          { "name": "Fully Furnished", "icon": "fas fa-couch" },
+          { "name": "Parking", "icon": "fas fa-parking" }
+        ],
+        "residenceDetails": {
+          "buildingType": "Independent Building",
+          "furnished": "Fully Furnished",
+          "moveInFee": "₹5,000",  
+          "utilitiesCost": "₹500",  
+          "securityDeposit": "₹10,000",  
+          "maintenanceFee": "₹200",  
+          "roomType": "Single Occupancy",
+          "floorNumber": "1"
+        },
+        "household": {
+          "ageRange": "18 - 30",
+          "gender": "Male",
+          "totalOccupants": 4,
+          "currentResidents": 2,
+          "language": ["Hindi", "Punjabi"]
+        },
+        "lifestyle": {
+          "cleanliness": "Moderate",
+          "overnightGuests": "Not Allowed",
+          "partyHabits": "Not Allowed",
+          "schedule": "Flexible",
+          "smoker": "No",
+          "workSchedule": "Flexible",
+          "occupation": "Student",
+          "petFriendly": "No",
+          "alcoholConsumption": "Not Allowed",
+          "dietaryPreferences": ["Vegetarian", "Non-Vegetarian"]
+        },
+        "roommatePreference": {
+          "ageRange": "18 - 30",
+          "smoking": "No",
+          "occupation": ["Student", "Working Professional"],
+          "gender": "Male",
+          "language": ["Hindi", "Punjabi"]
+        },
+        "owner": {
+          "name": "Nitin",
+          "age": 35,
+          "gender": "Male",
+          "image": "img/Blank.webp",
+          "listedProperties": 1,
+          "verified": true
+        },
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3428.662204936612!2d76.649911275374!3d30.755988674573015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ff00340000001%3A0x4ab009fe00508c75!2sAman%20City!5e0!3m2!1sen!2sin!4v1744977876948!5m2!1sen!2sin",
+        "img": [
+          "PG/Kharar/00002/1.jpg",
+          "PG/Kharar/00002/2.jpg",
+          "PG/Kharar/00002/3.jpg"
+        ]
+      },
+      "00005": {
+        "name": "Non AC PG Room for Boys – 1st Floor, Kharar",
+        "price": "₹5,500/month",
+        "listingType": ["PG", "1st Floor", "Boys"],
+        "availability": "28-Feb-2024",
+        "location": "Kharar, Punjab",
+        "description": "Fully furnished non-AC room PG for boys with bed, bath, parking and cooking amenities. Ideal for students. Spacious 500 sq. ft. unit on the 1st floor.",
+        "specs": {
+          "beds": 1,
+          "bath": 1,
+          "parking": 1,
+          "areaSqFt": 500
+        },
+        "amenities": [
+          { "name": "Gas and Stove", "icon": "fas fa-fire" },
+          { "name": "Fully Furnished", "icon": "fas fa-couch" },
+          { "name": "Parking", "icon": "fas fa-parking" }
+        ],
+        "residenceDetails": {
+          "buildingType": "Independent Building",
+          "furnished": "Fully Furnished",
+          "moveInFee": "₹5,000",  
+          "utilitiesCost": "₹500",  
+          "securityDeposit": "₹10,000",  
+          "maintenanceFee": "₹200",  
+          "roomType": "Single Occupancy",
+          "floorNumber": "1"
+        },
+        "household": {
+          "ageRange": "18 - 30",
+          "gender": "Male",
+          "totalOccupants": 4,
+          "currentResidents": 2,
+          "language": ["Hindi", "Punjabi"]
+        },
+        "lifestyle": {
+          "cleanliness": "Moderate",
+          "overnightGuests": "Not Allowed",
+          "partyHabits": "Not Allowed",
+          "schedule": "Flexible",
+          "smoker": "No",
+          "workSchedule": "Flexible",
+          "occupation": "Student",
+          "petFriendly": "No",
+          "alcoholConsumption": "Not Allowed",
+          "dietaryPreferences": ["Vegetarian", "Non-Vegetarian"]
+        },
+        "roommatePreference": {
+          "ageRange": "18 - 30",
+          "smoking": "No",
+          "occupation": ["Student", "Working Professional"],
+          "gender": "Male",
+          "language": ["Hindi", "Punjabi"]
+        },
+        "owner": {
+          "name": "Nitin",
+          "age": 35,
+          "gender": "Male",
+          "image": "img/Blank.webp",
+          "listedProperties": 1,
+          "verified": true
+        },
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3428.662204936612!2d76.649911275374!3d30.755988674573015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ff00340000001%3A0x4ab009fe00508c75!2sAman%20City!5e0!3m2!1sen!2sin!4v1744977876948!5m2!1sen!2sin",
+        "img": [
+          "PG/Kharar/00002/1.jpg",
+          "PG/Kharar/00002/2.jpg",
+          "PG/Kharar/00002/3.jpg"
+        ]
+      },
+      "00006": {
+        "name": "Non AC PG Room for Boys – 1st Floor, Kharar",
+        "price": "₹5,500/month",
+        "listingType": ["PG", "1st Floor", "Boys"],
+        "availability": "28-Feb-2024",
+        "location": "Kharar, Punjab",
+        "description": "Fully furnished non-AC room PG for boys with bed, bath, parking and cooking amenities. Ideal for students. Spacious 500 sq. ft. unit on the 1st floor.",
+        "specs": {
+          "beds": 1,
+          "bath": 1,
+          "parking": 1,
+          "areaSqFt": 500
+        },
+        "amenities": [
+          { "name": "Gas and Stove", "icon": "fas fa-fire" },
+          { "name": "Fully Furnished", "icon": "fas fa-couch" },
+          { "name": "Parking", "icon": "fas fa-parking" }
+        ],
+        "residenceDetails": {
+          "buildingType": "Independent Building",
+          "furnished": "Fully Furnished",
+          "moveInFee": "₹5,000",  
+          "utilitiesCost": "₹500",  
+          "securityDeposit": "₹10,000",  
+          "maintenanceFee": "₹200",  
+          "roomType": "Single Occupancy",
+          "floorNumber": "1"
+        },
+        "household": {
+          "ageRange": "18 - 30",
+          "gender": "Male",
+          "totalOccupants": 4,
+          "currentResidents": 2,
+          "language": ["Hindi", "Punjabi"]
+        },
+        "lifestyle": {
+          "cleanliness": "Moderate",
+          "overnightGuests": "Not Allowed",
+          "partyHabits": "Not Allowed",
+          "schedule": "Flexible",
+          "smoker": "No",
+          "workSchedule": "Flexible",
+          "occupation": "Student",
+          "petFriendly": "No",
+          "alcoholConsumption": "Not Allowed",
+          "dietaryPreferences": ["Vegetarian", "Non-Vegetarian"]
+        },
+        "roommatePreference": {
+          "ageRange": "18 - 30",
+          "smoking": "No",
+          "occupation": ["Student", "Working Professional"],
+          "gender": "Male",
+          "language": ["Hindi", "Punjabi"]
+        },
+        "owner": {
+          "name": "Nitin",
+          "age": 35,
+          "gender": "Male",
+          "image": "img/Blank.webp",
+          "listedProperties": 1,
+          "verified": true
+        },
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3428.662204936612!2d76.649911275374!3d30.755988674573015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ff00340000001%3A0x4ab009fe00508c75!2sAman%20City!5e0!3m2!1sen!2sin!4v1744977876948!5m2!1sen!2sin",
+        "img": [
+          "PG/Kharar/00002/1.jpg",
+          "PG/Kharar/00002/2.jpg",
+          "PG/Kharar/00002/3.jpg"
+        ]
+      }
+    },
+    "mohali" :{
+      "00002": {
+      "name": "AC Room PG in Phase 1, Sahibzada Ajit Singh Nagar, Mohali",
+      "price": "₹6,000",
+      "listingType": ["PG","1st Floor ","Girls"],
+      "availability": "Immediately",
+      "location": "phase-1, Sahibzada Ajit Singh Nagar, Mohali, Punjab",
+      "description": "Fully furnished AC PG for girls with attached washroom, kitchen, inverter and fridge. Safe neighborhood and ideal for students and professionals.",
+      "amenities": [
+        { "name": "Attached Bathroom", "icon": "fas fa-bath" },
+        { "name": "Kitchen", "icon": "fas fa-utensils" },
+        { "name": "Inverter Backup", "icon": "fas fa-bolt" },
+        { "name": "Refrigerator", "icon": "fas fa-snowflake" },
+        { "name": "Furnished Room", "icon": "fas fa-bed" },
+        { "name": "Water Supply", "icon": "fas fa-tint" },
+        { "name": "Security", "icon": "fas fa-shield-alt" },
+        { "name": "Parking", "icon": "fas fa-parking" }
+      ],
+      "residenceDetails": {
+        "buildingType": "Independent Building",
+        "furnished": "Fully Furnished",
+        "moveInFee": "₹5,000",
+        "utilitiesCost": "₹500",
+        "securityDeposit": "₹10,000",
+        "maintenanceFee": "₹200",
+        "roomType": "Single Occupancy",
+        "floorNumber": "1"
+      },
+      "household": {
+        "ageRange": "18 - 30",
+        "gender": "Female",
+        "totalOccupants": 4,
+        "currentResidents": 2,
+        "language": ["English", "Hindi"]
+      },
+      "lifestyle": {
+        "cleanliness": "High",
+        "overnightGuests": "Not Allowed",
+        "partyHabits": "Not Allowed",
+        "schedule": "Flexible",
+        "smoker": "No",
+        "workSchedule": "Flexible",
+        "occupation": "Student/Professional",
+        "petFriendly": "No",
+        "alcoholConsumption": "Not Allowed",
+        "dietaryPreferences": ["Vegetarian", "Non-Vegetarian"]
+      },
+      "roommatePreference": {
+        "ageRange": "18 - 30",
+        "smoking": "No",
+        "occupation": ["Student", "Working Professional"],
+        "gender": "Female",
+        "language": ["English", "Hindi"]
+      },
+      "owner": {
+        "name": "Ishan",
+        "age": 40,
+        "gender": "Male",
+        "image": "img/Blank.webp"
+      },
+"map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3429.651965775259!2d76.71522947537284!3d30.72818317458659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fee6edb96b8e9%3A0x461e6c89ba7b5eaa!2sPhase%201%2C%20Mohali%20Village%2C%20Sahibzada%20Ajit%20Singh%20Nagar%2C%20Punjab%20160055!5e0!3m2!1sen!2sin!4v1744975550886!5m2!1sen!2sin",
+      "img": [
+        "PG/Mohali/00001/1.jpeg",
+        "PG/Mohali/00001/2.jpeg",
+        "PG/Mohali/00001/3.jpeg",
+        "PG/Mohali/00001/4.jpeg",
+        "PG/Mohali/00001/5.jpeg",
+        "PG/Mohali/00001/6.jpeg",
+        "PG/Mohali/00001/7.jpeg"
+      ]
+    },
+      "00007": {
+      "name": "AC Room PG in Phase 1, Sahibzada Ajit Singh Nagar, Mohali",
+      "price": "₹6,000",
+      "listingType": ["PG","1st Floor ","Girls"],
+      "availability": "Immediately",
+      "location": "phase-1, Sahibzada Ajit Singh Nagar, Mohali, Punjab",
+      "description": "Fully furnished AC PG for girls with attached washroom, kitchen, inverter and fridge. Safe neighborhood and ideal for students and professionals.",
+      "amenities": [
+        { "name": "Attached Bathroom", "icon": "fas fa-bath" },
+        { "name": "Kitchen", "icon": "fas fa-utensils" },
+        { "name": "Inverter Backup", "icon": "fas fa-bolt" },
+        { "name": "Refrigerator", "icon": "fas fa-snowflake" },
+        { "name": "Furnished Room", "icon": "fas fa-bed" },
+        { "name": "Water Supply", "icon": "fas fa-tint" },
+        { "name": "Security", "icon": "fas fa-shield-alt" },
+        { "name": "Parking", "icon": "fas fa-parking" }
+      ],
+      "residenceDetails": {
+        "buildingType": "Independent Building",
+        "furnished": "Fully Furnished",
+        "moveInFee": "₹5,000",
+        "utilitiesCost": "₹500",
+        "securityDeposit": "₹10,000",
+        "maintenanceFee": "₹200",
+        "roomType": "Single Occupancy",
+        "floorNumber": "1"
+      },
+      "household": {
+        "ageRange": "18 - 30",
+        "gender": "Female",
+        "totalOccupants": 4,
+        "currentResidents": 2,
+        "language": ["English", "Hindi"]
+      },
+      "lifestyle": {
+        "cleanliness": "High",
+        "overnightGuests": "Not Allowed",
+        "partyHabits": "Not Allowed",
+        "schedule": "Flexible",
+        "smoker": "No",
+        "workSchedule": "Flexible",
+        "occupation": "Student/Professional",
+        "petFriendly": "No",
+        "alcoholConsumption": "Not Allowed",
+        "dietaryPreferences": ["Vegetarian", "Non-Vegetarian"]
+      },
+      "roommatePreference": {
+        "ageRange": "18 - 30",
+        "smoking": "No",
+        "occupation": ["Student", "Working Professional"],
+        "gender": "Female",
+        "language": ["English", "Hindi"]
+      },
+      "owner": {
+        "name": "Ishan",
+        "age": 40,
+        "gender": "Male",
+        "image": "img/Blank.webp"
+      },
+"map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3429.651965775259!2d76.71522947537284!3d30.72818317458659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fee6edb96b8e9%3A0x461e6c89ba7b5eaa!2sPhase%201%2C%20Mohali%20Village%2C%20Sahibzada%20Ajit%20Singh%20Nagar%2C%20Punjab%20160055!5e0!3m2!1sen!2sin!4v1744975550886!5m2!1sen!2sin",
+      "img": [
+        "PG/Mohali/00001/1.jpeg",
+        "PG/Mohali/00001/2.jpeg",
+        "PG/Mohali/00001/3.jpeg",
+        "PG/Mohali/00001/4.jpeg",
+        "PG/Mohali/00001/5.jpeg",
+        "PG/Mohali/00001/6.jpeg",
+        "PG/Mohali/00001/7.jpeg"
+      ]
+    },
+    "00008": {
+      "name": "AC Room PG in Phase 1, Sahibzada Ajit Singh Nagar, Mohali",
+      "price": "₹6,000",
+      "listingType": ["PG","1st Floor ","Girls"],
+      "availability": "Immediately",
+      "location": "phase-1, Sahibzada Ajit Singh Nagar, Mohali, Punjab",
+      "description": "Fully furnished AC PG for girls with attached washroom, kitchen, inverter and fridge. Safe neighborhood and ideal for students and professionals.",
+      "amenities": [
+        { "name": "Attached Bathroom", "icon": "fas fa-bath" },
+        { "name": "Kitchen", "icon": "fas fa-utensils" },
+        { "name": "Inverter Backup", "icon": "fas fa-bolt" },
+        { "name": "Refrigerator", "icon": "fas fa-snowflake" },
+        { "name": "Furnished Room", "icon": "fas fa-bed" },
+        { "name": "Water Supply", "icon": "fas fa-tint" },
+        { "name": "Security", "icon": "fas fa-shield-alt" },
+        { "name": "Parking", "icon": "fas fa-parking" }
+      ],
+      "residenceDetails": {
+        "buildingType": "Independent Building",
+        "furnished": "Fully Furnished",
+        "moveInFee": "₹5,000",
+        "utilitiesCost": "₹500",
+        "securityDeposit": "₹10,000",
+        "maintenanceFee": "₹200",
+        "roomType": "Single Occupancy",
+        "floorNumber": "1"
+      },
+      "household": {
+        "ageRange": "18 - 30",
+        "gender": "Female",
+        "totalOccupants": 4,
+        "currentResidents": 2,
+        "language": ["English", "Hindi"]
+      },
+      "lifestyle": {
+        "cleanliness": "High",
+        "overnightGuests": "Not Allowed",
+        "partyHabits": "Not Allowed",
+        "schedule": "Flexible",
+        "smoker": "No",
+        "workSchedule": "Flexible",
+        "occupation": "Student/Professional",
+        "petFriendly": "No",
+        "alcoholConsumption": "Not Allowed",
+        "dietaryPreferences": ["Vegetarian", "Non-Vegetarian"]
+      },
+      "roommatePreference": {
+        "ageRange": "18 - 30",
+        "smoking": "No",
+        "occupation": ["Student", "Working Professional"],
+        "gender": "Female",
+        "language": ["English", "Hindi"]
+      },
+      "owner": {
+        "name": "Ishan",
+        "age": 40,
+        "gender": "Male",
+        "image": "img/Blank.webp"
+      },
+"map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3429.651965775259!2d76.71522947537284!3d30.72818317458659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fee6edb96b8e9%3A0x461e6c89ba7b5eaa!2sPhase%201%2C%20Mohali%20Village%2C%20Sahibzada%20Ajit%20Singh%20Nagar%2C%20Punjab%20160055!5e0!3m2!1sen!2sin!4v1744975550886!5m2!1sen!2sin",
+      "img": [
+        "PG/Mohali/00001/1.jpeg",
+        "PG/Mohali/00001/2.jpeg",
+        "PG/Mohali/00001/3.jpeg",
+        "PG/Mohali/00001/4.jpeg",
+        "PG/Mohali/00001/5.jpeg",
+        "PG/Mohali/00001/6.jpeg",
+        "PG/Mohali/00001/7.jpeg"
+      ]
+    },
+    "00009  ": {
+      "name": "AC Room PG in Phase 1, Sahibzada Ajit Singh Nagar, Mohali",
+      "price": "₹6,000",
+      "listingType": ["PG","1st Floor ","Girls"],
+      "availability": "Immediately",
+      "location": "phase-1, Sahibzada Ajit Singh Nagar, Mohali, Punjab",
+      "description": "Fully furnished AC PG for girls with attached washroom, kitchen, inverter and fridge. Safe neighborhood and ideal for students and professionals.",
+      "amenities": [
+        { "name": "Attached Bathroom", "icon": "fas fa-bath" },
+        { "name": "Kitchen", "icon": "fas fa-utensils" },
+        { "name": "Inverter Backup", "icon": "fas fa-bolt" },
+        { "name": "Refrigerator", "icon": "fas fa-snowflake" },
+        { "name": "Furnished Room", "icon": "fas fa-bed" },
+        { "name": "Water Supply", "icon": "fas fa-tint" },
+        { "name": "Security", "icon": "fas fa-shield-alt" },
+        { "name": "Parking", "icon": "fas fa-parking" }
+      ],
+      "residenceDetails": {
+        "buildingType": "Independent Building",
+        "furnished": "Fully Furnished",
+        "moveInFee": "₹5,000",
+        "utilitiesCost": "₹500",
+        "securityDeposit": "₹10,000",
+        "maintenanceFee": "₹200",
+        "roomType": "Single Occupancy",
+        "floorNumber": "1"
+      },
+      "household": {
+        "ageRange": "18 - 30",
+        "gender": "Female",
+        "totalOccupants": 4,
+        "currentResidents": 2,
+        "language": ["English", "Hindi"]
+      },
+      "lifestyle": {
+        "cleanliness": "High",
+        "overnightGuests": "Not Allowed",
+        "partyHabits": "Not Allowed",
+        "schedule": "Flexible",
+        "smoker": "No",
+        "workSchedule": "Flexible",
+        "occupation": "Student/Professional",
+        "petFriendly": "No",
+        "alcoholConsumption": "Not Allowed",
+        "dietaryPreferences": ["Vegetarian", "Non-Vegetarian"]
+      },
+      "roommatePreference": {
+        "ageRange": "18 - 30",
+        "smoking": "No",
+        "occupation": ["Student", "Working Professional"],
+        "gender": "Female",
+        "language": ["English", "Hindi"]
+      },
+      "owner": {
+        "name": "Ishan",
+        "age": 40,
+        "gender": "Male",
+        "image": "img/Blank.webp"
+      },
+"map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3429.651965775259!2d76.71522947537284!3d30.72818317458659!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fee6edb96b8e9%3A0x461e6c89ba7b5eaa!2sPhase%201%2C%20Mohali%20Village%2C%20Sahibzada%20Ajit%20Singh%20Nagar%2C%20Punjab%20160055!5e0!3m2!1sen!2sin!4v1744975550886!5m2!1sen!2sin",
+      "img": [
+        "PG/Mohali/00001/1.jpeg",
+        "PG/Mohali/00001/2.jpeg",
+        "PG/Mohali/00001/3.jpeg",
+        "PG/Mohali/00001/4.jpeg",
+        "PG/Mohali/00001/5.jpeg",
+        "PG/Mohali/00001/6.jpeg",
+        "PG/Mohali/00001/7.jpeg"
+      ]
+    }
+    },
+    "chandigarh" :{
+      "00004": {
+        "name": "Non AC PG Room for Girls – 1st Floor, Golden Enclave",
+        "price": "₹4,000/month",
+        "listingType": ["PG", "1st Floor", "Girls"],
+        "availability": "03-Apr-2025",
+        "location": "Golden Enclave, Zirakpur",
+        "description": "Affordable non-AC PG for girls on the 1st floor with fridge, gas stove, and parking. Fully furnished and ideal for students. Located in a peaceful residential area.",
+        "specs": {
+          "beds": 1,
+          "bath": 1,
+          "parking": 1,
+          "areaSqFt": 500
+        },
+        "amenities": [
+          { "name": "Fridge", "icon": "fas fa-snowflake" },
+          { "name": "Gas and Stove", "icon": "fas fa-fire" },
+          { "name": "Fully Furnished", "icon": "fas fa-couch" },
+          { "name": "Parking", "icon": "fas fa-parking" }
+        ],
+        "residenceDetails": {
+          "buildingType": "Independent Building",
+          "furnished": "Fully Furnished",
+          "moveInFee": "₹4,000",
+          "utilitiesCost": "₹500",
+          "securityDeposit": "₹8,000",
+          "maintenanceFee": "₹200",
+          "roomType": "Single Occupancy",
+          "floorNumber": "1"
+        },
+        "household": {
+          "ageRange": "18 - 30",
+          "gender": "Female",
+          "totalOccupants": 3,
+          "currentResidents": 2,
+          "language": ["Hindi", "Punjabi", "English"]
+        },
+        "lifestyle": {
+          "cleanliness": "High",
+          "overnightGuests": "Not Allowed",
+          "partyHabits": "Not Allowed",
+          "schedule": "Flexible",
+          "smoker": "No",
+          "workSchedule": "Flexible",
+          "occupation": "Student",
+          "petFriendly": "No",
+          "alcoholConsumption": "Not Allowed",
+          "dietaryPreferences": ["Vegetarian", "Non-Vegetarian"]
+        },
+        "roommatePreference": {
+          "ageRange": "18 - 30",
+          "smoking": "No",
+          "occupation": ["Student"],
+          "gender": "Female",
+          "language": ["Hindi", "Punjabi", "English"]
+        },
+        "owner": {
+          "name": "Nitin",
+          "age": 35,
+          "gender": "Male",
+          "image": "img/Blank.webp",
+          "listedProperties": 1,
+          "verified": true
+        },
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3432.746487139753!2d76.81619677536925!3d30.641101474628588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390feb2e6c52a8cb%3A0x97bf82a85b6b7883!2sGolden%20Enclave!5e0!3m2!1sen!2sin!4v1744978329458!5m2!1sen!2sin",
+        "img": [
+          "PG/Zirakpur/00001/1.jpg",
+          "PG/Zirakpur/00001/2.jpg",
+          "PG/Zirakpur/00001/3.jpg",
+          "PG/Zirakpur/00001/4.jpg",
+          "PG/Zirakpur/00001/5.jpg",
+          "PG/Zirakpur/00001/6.jpg",
+          "PG/Zirakpur/00001/7.jpg",
+          "PG/Zirakpur/00001/8.jpg"
+          
+        ]
+      },"00010": {
+        "name": "Non AC PG Room for Girls – 1st Floor, Golden Enclave",
+        "price": "₹4,000/month",
+        "listingType": ["PG", "1st Floor", "Girls"],
+        "availability": "03-Apr-2025",
+        "location": "Golden Enclave, Zirakpur",
+        "description": "Affordable non-AC PG for girls on the 1st floor with fridge, gas stove, and parking. Fully furnished and ideal for students. Located in a peaceful residential area.",
+        "specs": {
+          "beds": 1,
+          "bath": 1,
+          "parking": 1,
+          "areaSqFt": 500
+        },
+        "amenities": [
+          { "name": "Fridge", "icon": "fas fa-snowflake" },
+          { "name": "Gas and Stove", "icon": "fas fa-fire" },
+          { "name": "Fully Furnished", "icon": "fas fa-couch" },
+          { "name": "Parking", "icon": "fas fa-parking" }
+        ],
+        "residenceDetails": {
+          "buildingType": "Independent Building",
+          "furnished": "Fully Furnished",
+          "moveInFee": "₹4,000",
+          "utilitiesCost": "₹500",
+          "securityDeposit": "₹8,000",
+          "maintenanceFee": "₹200",
+          "roomType": "Single Occupancy",
+          "floorNumber": "1"
+        },
+        "household": {
+          "ageRange": "18 - 30",
+          "gender": "Female",
+          "totalOccupants": 3,
+          "currentResidents": 2,
+          "language": ["Hindi", "Punjabi", "English"]
+        },
+        "lifestyle": {
+          "cleanliness": "High",
+          "overnightGuests": "Not Allowed",
+          "partyHabits": "Not Allowed",
+          "schedule": "Flexible",
+          "smoker": "No",
+          "workSchedule": "Flexible",
+          "occupation": "Student",
+          "petFriendly": "No",
+          "alcoholConsumption": "Not Allowed",
+          "dietaryPreferences": ["Vegetarian", "Non-Vegetarian"]
+        },
+        "roommatePreference": {
+          "ageRange": "18 - 30",
+          "smoking": "No",
+          "occupation": ["Student"],
+          "gender": "Female",
+          "language": ["Hindi", "Punjabi", "English"]
+        },
+        "owner": {
+          "name": "Nitin",
+          "age": 35,
+          "gender": "Male",
+          "image": "img/Blank.webp",
+          "listedProperties": 1,
+          "verified": true
+        },
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3432.746487139753!2d76.81619677536925!3d30.641101474628588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390feb2e6c52a8cb%3A0x97bf82a85b6b7883!2sGolden%20Enclave!5e0!3m2!1sen!2sin!4v1744978329458!5m2!1sen!2sin",
+        "img": [
+          "PG/Zirakpur/00001/1.jpg",
+          "PG/Zirakpur/00001/2.jpg",
+          "PG/Zirakpur/00001/3.jpg",
+          "PG/Zirakpur/00001/4.jpg",
+          "PG/Zirakpur/00001/5.jpg",
+          "PG/Zirakpur/00001/6.jpg",
+          "PG/Zirakpur/00001/7.jpg",
+          "PG/Zirakpur/00001/8.jpg"
+          
+        ]
+      },
+      "00011": {
+        "name": "Non AC PG Room for Girls – 1st Floor, Golden Enclave",
+        "price": "₹4,000/month",
+        "listingType": ["PG", "1st Floor", "Girls"],
+        "availability": "03-Apr-2025",
+        "location": "Golden Enclave, Zirakpur",
+        "description": "Affordable non-AC PG for girls on the 1st floor with fridge, gas stove, and parking. Fully furnished and ideal for students. Located in a peaceful residential area.",
+        "specs": {
+          "beds": 1,
+          "bath": 1,
+          "parking": 1,
+          "areaSqFt": 500
+        },
+        "amenities": [
+          { "name": "Fridge", "icon": "fas fa-snowflake" },
+          { "name": "Gas and Stove", "icon": "fas fa-fire" },
+          { "name": "Fully Furnished", "icon": "fas fa-couch" },
+          { "name": "Parking", "icon": "fas fa-parking" }
+        ],
+        "residenceDetails": {
+          "buildingType": "Independent Building",
+          "furnished": "Fully Furnished",
+          "moveInFee": "₹4,000",
+          "utilitiesCost": "₹500",
+          "securityDeposit": "₹8,000",
+          "maintenanceFee": "₹200",
+          "roomType": "Single Occupancy",
+          "floorNumber": "1"
+        },
+        "household": {
+          "ageRange": "18 - 30",
+          "gender": "Female",
+          "totalOccupants": 3,
+          "currentResidents": 2,
+          "language": ["Hindi", "Punjabi", "English"]
+        },
+        "lifestyle": {
+          "cleanliness": "High",
+          "overnightGuests": "Not Allowed",
+          "partyHabits": "Not Allowed",
+          "schedule": "Flexible",
+          "smoker": "No",
+          "workSchedule": "Flexible",
+          "occupation": "Student",
+          "petFriendly": "No",
+          "alcoholConsumption": "Not Allowed",
+          "dietaryPreferences": ["Vegetarian", "Non-Vegetarian"]
+        },
+        "roommatePreference": {
+          "ageRange": "18 - 30",
+          "smoking": "No",
+          "occupation": ["Student"],
+          "gender": "Female",
+          "language": ["Hindi", "Punjabi", "English"]
+        },
+        "owner": {
+          "name": "Nitin",
+          "age": 35,
+          "gender": "Male",
+          "image": "img/Blank.webp",
+          "listedProperties": 1,
+          "verified": true
+        },
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3432.746487139753!2d76.81619677536925!3d30.641101474628588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390feb2e6c52a8cb%3A0x97bf82a85b6b7883!2sGolden%20Enclave!5e0!3m2!1sen!2sin!4v1744978329458!5m2!1sen!2sin",
+        "img": [
+          "PG/Zirakpur/00001/1.jpg",
+          "PG/Zirakpur/00001/2.jpg",
+          "PG/Zirakpur/00001/3.jpg",
+          "PG/Zirakpur/00001/4.jpg",
+          "PG/Zirakpur/00001/5.jpg",
+          "PG/Zirakpur/00001/6.jpg",
+          "PG/Zirakpur/00001/7.jpg",
+          "PG/Zirakpur/00001/8.jpg"
+          
+        ]
+      },
+      "00012": {
+        "name": "Non AC PG Room for Girls – 1st Floor, Golden Enclave",
+        "price": "₹4,000/month",
+        "listingType": ["PG", "1st Floor", "Girls"],
+        "availability": "03-Apr-2025",
+        "location": "Golden Enclave, Zirakpur",
+        "description": "Affordable non-AC PG for girls on the 1st floor with fridge, gas stove, and parking. Fully furnished and ideal for students. Located in a peaceful residential area.",
+        "specs": {
+          "beds": 1,
+          "bath": 1,
+          "parking": 1,
+          "areaSqFt": 500
+        },
+        "amenities": [
+          { "name": "Fridge", "icon": "fas fa-snowflake" },
+          { "name": "Gas and Stove", "icon": "fas fa-fire" },
+          { "name": "Fully Furnished", "icon": "fas fa-couch" },
+          { "name": "Parking", "icon": "fas fa-parking" }
+        ],
+        "residenceDetails": {
+          "buildingType": "Independent Building",
+          "furnished": "Fully Furnished",
+          "moveInFee": "₹4,000",
+          "utilitiesCost": "₹500",
+          "securityDeposit": "₹8,000",
+          "maintenanceFee": "₹200",
+          "roomType": "Single Occupancy",
+          "floorNumber": "1"
+        },
+        "household": {
+          "ageRange": "18 - 30",
+          "gender": "Female",
+          "totalOccupants": 3,
+          "currentResidents": 2,
+          "language": ["Hindi", "Punjabi", "English"]
+        },
+        "lifestyle": {
+          "cleanliness": "High",
+          "overnightGuests": "Not Allowed",
+          "partyHabits": "Not Allowed",
+          "schedule": "Flexible",
+          "smoker": "No",
+          "workSchedule": "Flexible",
+          "occupation": "Student",
+          "petFriendly": "No",
+          "alcoholConsumption": "Not Allowed",
+          "dietaryPreferences": ["Vegetarian", "Non-Vegetarian"]
+        },
+        "roommatePreference": {
+          "ageRange": "18 - 30",
+          "smoking": "No",
+          "occupation": ["Student"],
+          "gender": "Female",
+          "language": ["Hindi", "Punjabi", "English"]
+        },
+        "owner": {
+          "name": "Nitin",
+          "age": 35,
+          "gender": "Male",
+          "image": "img/Blank.webp",
+          "listedProperties": 1,
+          "verified": true
+        },
+        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3432.746487139753!2d76.81619677536925!3d30.641101474628588!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390feb2e6c52a8cb%3A0x97bf82a85b6b7883!2sGolden%20Enclave!5e0!3m2!1sen!2sin!4v1744978329458!5m2!1sen!2sin",
+        "img": [
+          "PG/Zirakpur/00001/1.jpg",
+          "PG/Zirakpur/00001/2.jpg",
+          "PG/Zirakpur/00001/3.jpg",
+          "PG/Zirakpur/00001/4.jpg",
+          "PG/Zirakpur/00001/5.jpg",
+          "PG/Zirakpur/00001/6.jpg",
+          "PG/Zirakpur/00001/7.jpg",
+          "PG/Zirakpur/00001/8.jpg"
+          
+        ]
+      }
+      
+    }
+  }
+}
