@@ -88,19 +88,6 @@
     </div>
   </main>
 
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      const urlParams = new URLSearchParams(window.location.search);
-      const location = urlParams.get('location');
-      
-      if (location) {
-        document.getElementById('location-text').textContent = location.charAt(0).toUpperCase() + location.slice(1);
-        // Here you can add code to fetch and display properties for the specific location
-        // For now, we'll just update the UI to show we're filtering by location
-      }
-    });
-  </script>
-    
   <footer class="bg-dark text-light py-4 py-lg-5">
     <div class="container">
       <div class="row g-4">
@@ -173,36 +160,30 @@
 </html>
 
 <script>
-document.addEventListener('DOMContentLoaded', function() {
-  const urlParams = new URLSearchParams(window.location.search);
-  const type = urlParams.get('type') || '';
-  const preference = urlParams.get('for') || '';
-  const location = urlParams.get('location') || '';
-  const propertyContainer = document.getElementById('property-list');
-  const locationText = document.getElementById('location-text');
-  const propertyCount = document.getElementById('property-count');
-  
-  fetch('propertysearch/data.json')
-    .then(response => response.json())
-    .then(data => {
-      propertyContainer.innerHTML = '';
-      let total = 0;
-      
-      Object.values(data.location).flatMap(locArr => Object.values(locArr))
-        .forEach(property => {
-          // Normalize listing type
-          const listingType = property.listingType || '';
-          const listingTypes = Array.isArray(listingType) 
-            ? listingType.map(t => t.toLowerCase())
-            : [listingType.toLowerCase()];
+  document.addEventListener('DOMContentLoaded', function() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const type = urlParams.get('type') || '';
+    const preference = urlParams.get('for') || '';
+    const location = urlParams.get('location') || '';
+    const propertyContainer = document.getElementById('property-list');
+    const locationText = document.getElementById('location-text');
+    const propertyCount = document.getElementById('property-count');
 
-          // Normalize gender tag
+    fetch('propertysearch/data.json')
+      .then(response => response.json())
+      .then(data => {
+        propertyContainer.innerHTML = '';
+        let total = 0;
+
+        Object.values(data.location).flatMap(locArr => Object.values(locArr)).forEach(property => {
+          const listingTypes = Array.isArray(property.listingType)
+            ? property.listingType.map(t => t.toLowerCase())
+            : [property.listingType.toLowerCase()];
+
           const genderTag = (property.household?.gender || '').toLowerCase();
 
-          // Filter by type
           if (type && !listingTypes.includes(type.toLowerCase())) return;
 
-          // Filter by gender preference
           if (preference) {
             const pref = preference.toLowerCase();
             const isMale = genderTag === 'male' || genderTag === 'boys';
@@ -213,7 +194,6 @@ document.addEventListener('DOMContentLoaded', function() {
             if (pref === 'family' && (isMale || isFemale)) return;
           }
 
-          // Filter by location (case-insensitive partial match)
           if (location && !property.location.toLowerCase().includes(location.toLowerCase())) return;
 
           total++;
@@ -223,16 +203,13 @@ document.addEventListener('DOMContentLoaded', function() {
                 <div id="propertyCarousel${property.id}" class="carousel slide" data-bs-ride="carousel">
                   <div class="carousel-indicators">
                     ${property.img.map((_, index) => `
-                      <button type="button" data-bs-target="#propertyCarousel${property.id}" 
-                              data-bs-slide-to="${index}" 
-                              ${index === 0 ? 'class="active"' : ''}></button>
+                      <button type="button" data-bs-target="#propertyCarousel${property.id}" data-bs-slide-to="${index}" ${index === 0 ? 'class="active"' : ''}></button>
                     `).join('')}
                   </div>
                   <div class="carousel-inner">
                     ${property.img.map((img, index) => `
                       <div class="carousel-item ${index === 0 ? 'active' : ''}">
-                        <img src="propertysearch/${img}" class="card-img-top" alt="Property Image ${index + 1}" 
-                             style="height: 200px; object-fit: cover;">
+                        <img src="propertysearch/${img}" class="card-img-top" alt="Property Image ${index + 1}" style="height: 200px; object-fit: cover;">
                       </div>
                     `).join('')}
                   </div>
@@ -275,36 +252,25 @@ document.addEventListener('DOMContentLoaded', function() {
           propertyContainer.insertAdjacentHTML('beforeend', propertyCard);
         });
 
-      // Update counts and display empty message if needed
-      propertyCount.textContent = total;
-      if (location) {
-        locationText.textContent = location.charAt(0).toUpperCase() + location.slice(1);
-      }
+        propertyCount.textContent = total;
+        if (location) locationText.textContent = location.charAt(0).toUpperCase() + location.slice(1);
+        if (total === 0) displayEmptyMessage(type || preference || 'Property');
+      });
 
-      if (total === 0) {
-        displayEmptyMessage(
-          preference
-            ? preference.charAt(0).toUpperCase() + preference.slice(1)
-            : (type ? type.charAt(0).toUpperCase() + type.slice(1) : 'Property')
-        );
-      }
-    });
-});
-
-function displayEmptyMessage(propertyType) {
-  const emptyCard = document.createElement('div');
-  emptyCard.className = 'col-12 col-md-6 col-lg-4';
-  emptyCard.innerHTML = `
-    <div class="card h-100 border-0 shadow-sm">
-      <div class="card-body text-center py-5">
-        <i class="fas fa-home fa-3x text-muted mb-3"></i>
-        <h5 class="card-title">SORRY EMPTY</h5>
-        <p class="card-text text-muted">No ${propertyType} properties available at this time.</p>
-      </div>
-    </div>
-  `;
-  document.getElementById('property-list').appendChild(emptyCard);
-}
-
+    function displayEmptyMessage(propertyType) {
+      const emptyCard = document.createElement('div');
+      emptyCard.className = 'col-12';
+      emptyCard.innerHTML = `
+        <div class="card h-100 border-0 shadow-sm">
+          <div class="card-body text-center py-5">
+            <i class="fas fa-home fa-3x text-muted mb-3"></i>
+            <h5 class="card-title">SORRY EMPTY</h5>
+            <p class="card-text text-muted">No ${propertyType} properties available at this time.</p>
+          </div>
+        </div>
+      `;
+      propertyContainer.appendChild(emptyCard);
+    }
+  });
 </script>
 </html>

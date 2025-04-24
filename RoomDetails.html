@@ -141,6 +141,15 @@
     // Get property ID from URL parameters
     const urlParams = new URLSearchParams(window.location.search);
     const propertyId = urlParams.get('id');
+    
+    if (!propertyId) {
+      document.getElementById('propertyDetails').innerHTML = `
+        <div class="alert alert-danger" role="alert">
+          Invalid property ID. Please go back and select a valid property.
+        </div>
+      `;
+      return;
+    }
 
     // Fetch property data
     fetch('propertysearch/data.json')
