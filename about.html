@@ -11,6 +11,14 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
       rel="stylesheet"
     />
+    <!-- Animate.css -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" rel="stylesheet">
+<!-- WOW.js -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script>
+  new WOW().init();
+</script>
+
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
       rel="stylesheet"
@@ -85,116 +93,130 @@
 
 
     <!-- About Section Start -->
-    <div class="container py-5">
-      <div class="row align-items-center g-5">
-        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-          <h1 class="display-5 mb-4">About TriCity Rent</h1>
-          <p class="mb-4">TriCityRent helps you find the best rental properties in Tricity – Chandigarh, Mohali, and Panchkula. Whether you're looking for a flat, house, PG, or room, we make it easy to find the perfect place to rent.</p>
-          <a class="btn btn-primary py-3 px-5" href="contact.html">Contact Us</a>
-        </div>
-        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
-          <div id="aboutCarousel" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#aboutCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#aboutCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            </div>
-            <div class="carousel-inner rounded">
-              <div class="carousel-item active">
-                <img src="img/aboutimg1.jpeg" class="d-block w-100 rounded" alt="About Image 1">
+    <section class="about">
+      <div class="container py-5">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6 wow fadeInUp text-center text-lg-start" data-wow-delay="0.1s">
+            <h1 class="display-5 mb-4">About TriCity Rent</h1>
+            <p class="mb-4">TriCityRent helps you find the best rental properties in Tricity – Chandigarh, Mohali, and Panchkula. Whether you're looking for a flat, house, PG, or room, we make it easy to find the perfect place to rent.</p>
+            <a class="btn btn-primary py-3 px-5 rounded-pill" href="contact.html">Contact Us</a>
+          </div>
+          <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+            <div id="aboutCarousel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#aboutCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#aboutCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
               </div>
-              <div class="carousel-item">
-                <img src="img/aboutimg2.jpeg" class="d-block w-100 rounded" alt="About Image 2">
+              <div class="carousel-inner rounded">
+                <div class="carousel-item active">
+                  <img src="img/aboutimg1.jpeg" class="d-block w-100 rounded" alt="Rental apartment in Chandigarh" loading="lazy">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/aboutimg2.jpeg" class="d-block w-100 rounded" alt="Modern house in Mohali" loading="lazy">
+                </div>
               </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#aboutCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#aboutCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#aboutCarousel" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#aboutCarousel" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
           </div>
         </div>
       </div>
-    </div>
+    
    <!-- Why Choose Us Section Start -->
-<div class="container py-5">
-    <div class="text-center mb-5">
-      <h2 class="h3">Why Choose Us?</h2>
-    </div>
-    <div class="row g-4">
-      <div class="col-md-4">
-        <div class="card text-center h-100 border-0 shadow-sm">
-          <div class="card-body">
-            <img src="https://tristay.in/wp-content/uploads/2021/11/first.svg" alt="Premium Filters" width="48" class="mb-3">
-            <h5 class="card-title">Premium Filters for Free</h5>
-            <p class="card-text">Easily find the perfect rental property with our advanced search filters, all available at no cost.</p>
+      <section id="Why-choose-us">
+        <div class="container py-5">
+          <div class="text-center mb-5">
+            <h2 class="display-6 fw-bold">Why Choose Us?</h2>
+          </div>          
+          <div class="row g-4">
+            <div class="col-md-4">
+              <div class="card text-center h-100 border-0 shadow-sm">
+                <div class="card-body">
+                  <img src="https://tristay.in/wp-content/uploads/2021/11/first.svg" alt="Premium Filters" width="48" class="mb-3" loading="lazy">
+                  <h5 class="card-title">Premium Filters for Free</h5>
+                  <p class="card-text">Easily find the perfect rental property with our advanced search filters, all available at no cost.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card text-center h-100 border-0 shadow-sm">
+                <div class="card-body">
+                  <img src="https://tristay.in/wp-content/uploads/2021/11/second.svg" alt="Latest Listings" width="48" class="mb-3" loading="lazy">
+                  <h5 class="card-title">Latest Listings</h5>
+                  <p class="card-text">Stay up-to-date with the most recent properties. We ensure our listings are always fresh.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card text-center h-100 border-0 shadow-sm">
+                <div class="card-body">
+                  <img src="https://tristay.in/wp-content/uploads/2021/11/third.svg" alt="Direct Contact" width="48" class="mb-3" loading="lazy">
+                  <h5 class="card-title">Direct Contact</h5>
+                  <p class="card-text">Connect directly with property owners and brokers for quick, hassle-free communication.</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card text-center h-100 border-0 shadow-sm">
-          <div class="card-body">
-            <img src="https://tristay.in/wp-content/uploads/2021/11/second.svg" alt="Latest Listings" width="48" class="mb-3">
-            <h5 class="card-title">Latest Listings</h5>
-            <p class="card-text">Stay up-to-date with the most recent properties. We ensure our listings are always fresh.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-4">
-        <div class="card text-center h-100 border-0 shadow-sm">
-          <div class="card-body">
-            <img src="https://tristay.in/wp-content/uploads/2021/11/third.svg" alt="Direct Contact" width="48" class="mb-3">
-            <h5 class="card-title">Direct Contact</h5>
-            <p class="card-text">Connect directly with property owners and brokers for quick, hassle-free communication.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
+      </section>
   <!-- Why Choose Us Section End -->
 <!-- How It Works Section Start -->
-<div class="container py-5">
+  <section id="How-it-works">
+    <div class="container py-5">
     <div class="row align-items-center">
       <!-- Image Column -->
       <div class="col-md-5 text-center mb-4 mb-md-0">
-        <img src="https://tristay.in/wp-content/uploads/2021/11/find.svg" alt="How it works" class="img-fluid" width="526" height="500">
-      </div>
+        <img src="https://tristay.in/wp-content/uploads/2021/11/find.svg"
+        alt="How it works illustration"
+        class="img-fluid"
+        width="526" height="500"
+        loading="lazy">
+         </div>
   
       <!-- Steps Column -->
       <div class="col-md-7">
-        <h2 class="h3 mb-4">How it works - TriStay</h2>
+        <h2 class="display-6 fw-bold mb-4">How It Works – TriCityRent</h2>
   
         <!-- Step 1 -->
-        <div class="d-flex mb-4">
+        <div class="d-flex mb-4 wow fadeInUp" data-wow-delay="0.1s">
+          
           <div class="bg-primary text-white fw-bold rounded-circle d-flex align-items-center justify-content-center shadow me-3" style="width: 40px; height: 40px;">1</div>
           <div>
-            <h5 class="mb-1">Search for properties on TriStay</h5>
+            <h5 class="mb-1"><i class="bi bi-search"></i> <!-- Requires Bootstrap Icons -->
+              Search for properties on TriCityRent</h5>
             <p class="mb-0">Explore a wide selection of rental properties in Chandigarh, Mohali, and Panchkula using powerful filters to find exactly what you need.</p>
           </div>
         </div>
   
         <!-- Step 2 -->
-        <div class="d-flex mb-4">
+        <div class="d-flex mb-4 wow fadeInUp" data-wow-delay="0.1s" >
           <div class="bg-primary text-white fw-bold rounded-circle d-flex align-items-center justify-content-center shadow me-3" style="width: 40px; height: 40px;">2</div>
           <div>
-            <h5 class="mb-1">View Property Details</h5>
+            <h5 class="mb-1"><i class="bi bi-search"></i> <!-- Requires Bootstrap Icons -->
+              View Property Details</h5>
             <p class="mb-0">Check out high-quality photos, rental prices, and detailed descriptions to make a confident choice.</p>
           </div>
         </div>
   
         <!-- Step 3 -->
-        <div class="d-flex">
+        <div class="d-flex wow fadeInUp" data-wow-delay="0.1s">
           <div class="bg-primary text-white fw-bold rounded-circle d-flex align-items-center justify-content-center shadow me-3" style="width: 40px; height: 40px;">3</div>
           <div>
-            <h5 class="mb-1">Contact Directly</h5>
-            <p class="mb-0">Talk straight to property owners or brokers through TriStay to lock in your rental without the drama.</p>
+            <h5 class="mb-1"><i class="bi bi-search"></i> <!-- Requires Bootstrap Icons -->
+              Contact Directly</h5>
+            <p class="mb-0">Talk straight to property owners or brokers through TriCityRent to lock in your rental without the drama.</p>
           </div>
         </div>
       </div>
     </div>
   </div>
+</section>
   <!-- How It Works Section End -->
   <section class="container my-5">
     <h2 class="text-center mb-4">Hear from our customers</h2>
@@ -222,7 +244,7 @@
             <img src="https://tristay.in/wp-content/uploads/2022/04/04.jpg" class="rounded-3" alt="Ravesh Rawal" width="300">
             <div class="card shadow border-0 w-100 w-md-50">
               <div class="card-body">
-                <p class="card-text">As a first-time renter, I was unsure where to start. TriStay's website gave me all the information I needed, and I was able to directly connect with brokers. Excellent service!</p>
+                <p class="card-text">As a first-time renter, I was unsure where to start. TriCityRent's website gave me all the information I needed, and I was able to directly connect with brokers. Excellent service!</p>
                 <h6 class="mb-0">Ravesh Rawal</h6>
                 <small class="text-muted">Software Engineer, Living in Kharar</small>
               </div>
