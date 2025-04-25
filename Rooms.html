@@ -55,8 +55,8 @@
     <nav class="navbar navbar-expand-lg bg-white">
       <div class="container">
         <a class="navbar-brand" href="index.html">
-          <img src="img/logo.png" alt="FindMyRent Logo" height="52.5" class="d-none d-lg-block">
-          <img src="img/icon.png" alt="FindMyRent Icon" height="40" class="d-block d-lg-none">
+          <img src="img/logo.png" alt="FindMyRent Logo" height="52.5" class="d-none d-lg-block" loading="lazy">
+          <img src="img/icon.png" alt="FindMyRent Icon" height="40" class="d-block d-lg-none" loading="lazy">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
           <span class="navbar-toggler-icon"></span>
@@ -131,7 +131,7 @@
         <div class="col-12 col-sm-6 col-lg-3">
           <h5 class="mb-3 fs-6">Contact Info</h5>
           <ul class="list-unstyled small">
-            <li class="mb-2"><i class="fa fa-envelope me-2"></i>ABCD12345@gmail.com</li>
+            <li class="mb-2"><i class="fa fa-envelope me-2"></i>Contact@tricityrent.com</li>
             <li class="mb-2"><i class="fa fa-phone me-2"></i>+91 XXX XXX XXXX</li>
             <li class="mb-2"><i class="fa fa-map-marker-alt me-2"></i>India</li>
           </ul>
@@ -142,7 +142,7 @@
           <div class="border-top border-secondary pt-4">
             <div class="row align-items-center">
               <div class="col-12 col-md-6 text-center text-md-start">
-                <p class="small mb-0">&copy; 2025 FindMyRent by Tech Engineer. All rights reserved.</p>
+                <p class="small mb-0">&copy; 2025 TriCityRent by Tech Engineer. All rights reserved.</p>
               </div>
               <div class="col-12 col-md-6 text-center text-md-end">
                 <a href="term.html" class="text-light text-decoration-none me-3 small">Terms of Service</a>
@@ -210,7 +210,7 @@
                     <div class="carousel-inner">
                       ${property.img.map((img, index) => `
                         <div class="carousel-item ${index === 0 ? 'active' : ''}">
-                          <img src="propertysearch/${img}" class="card-img-top" alt="Property Image ${index + 1}" style="height: 200px; object-fit: cover;">
+                          <img src="propertysearch/${img}" class="card-img-top" loading="lazy" alt="Property Image ${index + 1}" style="height: 200px; object-fit: cover;">
                         </div>
                       `).join('')}
                     </div>
