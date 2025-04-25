@@ -105,9 +105,9 @@
           <h5 class="mb-3 fs-6">Quick Links</h5>
           <ul class="list-unstyled small">
             <li><a href="index.html" class="text-light text-decoration-none mb-2 d-block">Home</a></li>
-            <li><a href="#" class="text-light text-decoration-none mb-2 d-block">About Us</a></li>
+            <li><a href="about.html" class="text-light text-decoration-none mb-2 d-block">About Us</a></li>
             <li><a href="Contact.html" class="text-light text-decoration-none mb-2 d-block">Contact</a></li>
-            <li><a href="#" class="text-light text-decoration-none mb-2 d-block">Blog</a></li>
+            <li><a href="blog.html" class="text-light text-decoration-none mb-2 d-block">Blog</a></li>
           </ul>
         </div>
         <div class="col-6 col-sm-6 col-lg-2">
@@ -175,81 +175,83 @@
         propertyContainer.innerHTML = '';
         let total = 0;
 
-        Object.values(data.location).flatMap(locArr => Object.values(locArr)).forEach(property => {
-          const listingTypes = Array.isArray(property.listingType)
-            ? property.listingType.map(t => t.toLowerCase())
-            : [property.listingType.toLowerCase()];
+        Object.entries(data.location).forEach(([locKey, locArr]) => {
+          Object.entries(locArr).forEach(([propertyId, property]) => {
+            const listingTypes = Array.isArray(property.listingType)
+              ? property.listingType.map(t => t.toLowerCase())
+              : [property.listingType.toLowerCase()];
 
-          const genderTag = (property.household?.gender || '').toLowerCase();
+            const genderTag = (property.household?.gender || '').toLowerCase();
 
-          if (type && !listingTypes.includes(type.toLowerCase())) return;
+            if (type && !listingTypes.includes(type.toLowerCase())) return;
 
-          if (preference) {
-            const pref = preference.toLowerCase();
-            const isMale = genderTag === 'male' || genderTag === 'boys';
-            const isFemale = genderTag === 'female' || genderTag === 'girls';
+            if (preference) {
+              const pref = preference.toLowerCase();
+              const isMale = genderTag === 'male' || genderTag === 'boys';
+              const isFemale = genderTag === 'female' || genderTag === 'girls';
 
-            if ((pref === 'boys' || pref === 'male') && !isMale) return;
-            if ((pref === 'girls' || pref === 'female') && !isFemale) return;
-            if (pref === 'family' && (isMale || isFemale)) return;
-          }
+              if ((pref === 'boys' || pref === 'male') && !isMale) return;
+              if ((pref === 'girls' || pref === 'female') && !isFemale) return;
+              if (pref === 'family' && (isMale || isFemale)) return;
+            }
 
-          if (location && !property.location.toLowerCase().includes(location.toLowerCase())) return;
+            if (location && !property.location.toLowerCase().includes(location.toLowerCase())) return;
 
-          total++;
-          const propertyCard = `
-            <div class="col-md-6 col-lg-4">
-              <div class="card h-100 shadow-sm">
-                <div id="propertyCarousel${property.id}" class="carousel slide" data-bs-ride="carousel">
-                  <div class="carousel-indicators">
-                    ${property.img.map((_, index) => `
-                      <button type="button" data-bs-target="#propertyCarousel${property.id}" data-bs-slide-to="${index}" ${index === 0 ? 'class="active"' : ''}></button>
-                    `).join('')}
+            total++;
+            const propertyCard = `
+              <div class="col-md-6 col-lg-4">
+                <div class="card h-100 shadow-sm">
+                  <div id="propertyCarousel${propertyId}" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      ${property.img.map((_, index) => `
+                        <button type="button" data-bs-target="#propertyCarousel${propertyId}" data-bs-slide-to="${index}" ${index === 0 ? 'class="active"' : ''}></button>
+                      `).join('')}
+                    </div>
+                    <div class="carousel-inner">
+                      ${property.img.map((img, index) => `
+                        <div class="carousel-item ${index === 0 ? 'active' : ''}">
+                          <img src="propertysearch/${img}" class="card-img-top" alt="Property Image ${index + 1}" style="height: 200px; object-fit: cover;">
+                        </div>
+                      `).join('')}
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#propertyCarousel${propertyId}" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#propertyCarousel${propertyId}" data-bs-slide="next">
+                      <span class="carousel-control-next-icon"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
                   </div>
-                  <div class="carousel-inner">
-                    ${property.img.map((img, index) => `
-                      <div class="carousel-item ${index === 0 ? 'active' : ''}">
-                        <img src="propertysearch/${img}" class="card-img-top" alt="Property Image ${index + 1}" style="height: 200px; object-fit: cover;">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between align-items-center mb-2">
+                      <h5 class="card-title mb-0">${property.price}</h5>
+                      <div>
+                        <span class="badge ${genderTag === 'male' ? 'bg-primary' : 'bg-danger'} me-2">${property.household.gender} Only</span>
+                        <span class="badge bg-success">${property.availability}</span>
                       </div>
-                    `).join('')}
-                  </div>
-                  <button class="carousel-control-prev" type="button" data-bs-target="#propertyCarousel${property.id}" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon"></span>
-                    <span class="visually-hidden">Previous</span>
-                  </button>
-                  <button class="carousel-control-next" type="button" data-bs-target="#propertyCarousel${property.id}" data-bs-slide="next">
-                    <span class="carousel-control-next-icon"></span>
-                    <span class="visually-hidden">Next</span>
-                  </button>
-                </div>
-                <div class="card-body">
-                  <div class="d-flex justify-content-between align-items-center mb-2">
-                    <h5 class="card-title mb-0">${property.price}</h5>
-                    <div>
-                      <span class="badge ${genderTag === 'male' ? 'bg-primary' : 'bg-danger'} me-2">${property.household.gender} Only</span>
-                      <span class="badge bg-success">${property.availability}</span>
+                    </div>
+                    <h6 class="mb-2">${property.name}</h6>
+                    <p class="card-text text-muted small mb-0">
+                      <i class="bi bi-geo-alt me-2"></i>${property.location}
+                    </p>
+                    <hr>
+                    <div class="d-flex flex-wrap gap-2">
+                      ${property.amenities.slice(0, 3).map(amenity => `
+                        <span class="small"><i class="${amenity.icon} me-1"></i>${amenity.name}</span>
+                      `).join('')}
                     </div>
                   </div>
-                  <h6 class="mb-2">${property.name}</h6>
-                  <p class="card-text text-muted small mb-0">
-                    <i class="bi bi-geo-alt me-2"></i>${property.location}
-                  </p>
-                  <hr>
-                  <div class="d-flex flex-wrap gap-2">
-                    ${property.amenities.slice(0, 3).map(amenity => `
-                      <span class="small"><i class="${amenity.icon} me-1"></i>${amenity.name}</span>
-                    `).join('')}
-                  </div>
-                </div>
-                <div class="card-footer bg-white border-top-0">
-                  <div class="d-grid gap-2">
-                    <button class="btn btn-primary" type="button" onclick="window.location.href='RoomDetails.html?id=${property.id}'">View Details</button>
+                  <div class="card-footer bg-white border-top-0">
+                    <div class="d-grid gap-2">
+                      <button class="btn btn-primary" type="button" onclick="window.location.href='RoomDetails.html?id=${propertyId}'">View Details</button>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-          `;
-          propertyContainer.insertAdjacentHTML('beforeend', propertyCard);
+            `;
+            propertyContainer.insertAdjacentHTML('beforeend', propertyCard);
+          });
         });
 
         propertyCount.textContent = total;
