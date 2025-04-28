@@ -207,8 +207,7 @@
                 <div class="carousel-inner">
                   ${property.img.map((img, index) => `
                     <div class="carousel-item ${index === 0 ? 'active' : ''}">
-                      <img src="propertysearch/${img}" class="d-block w-100" alt="Property Image ${index + 1}" 
-                           style="height: 400px; object-fit: cover;" loading="lazy">
+                      <img src="propertysearch/${img}" class="d-block w-100" alt="Property Image ${index + 1}"                           style="height: 400px; object-fit: cover;" loading="lazy">
                     </div>
                   `).join('')}
                 </div>
@@ -319,7 +318,7 @@
                 <div class="card-body">
                   <h3 class="h5 mb-3">Owner Information</h3>
                   <div class="text-center mb-3">
-                    <img src="${property.owner.image}" alt="${property.owner.name}" loading="lazy" class="rounded-circle" style="width: 100px; height: 100px; object-fit: cover;">
+                    <img src="${property.owner.image}" alt="Owner photo of ${property.owner.name}, ${property.owner.age} years old" loading="lazy" class="rounded-circle" style="width: 100px; height: 100px; object-fit: cover;">
                   </div>
                   <p class="mb-2"><strong>Name:</strong> ${property.owner.name}</p>
                   <p class="mb-2"><strong>Age:</strong> ${property.owner.age}</p>
@@ -346,7 +345,7 @@
                 <div class="card-body">
                   <h3 class="h5 mb-3">Location</h3>
                   <div class="ratio ratio-16x9">
-                    <iframe src="${property.map}" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe src="${property.map}" style="border:0;" title="Map location of ${property.name} in ${property.location}" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                   </div>
                 </div>
               </div>
