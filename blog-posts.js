@@ -148,89 +148,95 @@ const blogPosts = {
         date: 'March 5, 2024',
         image: 'img/blog/pg-living.jpg',
         content: `
-            <h2>Choosing Between PG Accommodation and Apartment Living</h2>
-            <p>Making the decision between PG accommodation and apartment living can be crucial for your comfort and lifestyle. Let's compare both options in detail:</p>
-            
-            <h3>PG Accommodation</h3>
-            <h4>Advantages:</h4>
-            <ul>
-                <li>Cost-effective with included meals</li>
-                <li>No utility bills to manage</li>
-                <li>Furnished rooms</li>
-                <li>Built-in community</li>
-                <li>No long-term commitment</li>
-            </ul>
-            
-            <h4>Disadvantages:</h4>
-            <ul>
-                <li>Limited privacy</li>
-                <li>Fixed meal timings</li>
-                <li>House rules and restrictions</li>
-                <li>Shared facilities</li>
-            </ul>
-            
-            <h3>Apartment Living</h3>
-            <h4>Advantages:</h4>
-            <ul>
-                <li>Complete privacy</li>
-                <li>Freedom to cook and eat anytime</li>
-                <li>No restrictions on visitors</li>
-                <li>Personalize your space</li>
-            </ul>
-            
-            <h4>Disadvantages:</h4>
-            <ul>
-                <li>Higher monthly expenses</li>
-                <li>Need to buy/arrange furniture</li>
-                <li>Utility bills management</li>
-                <li>Longer commitment period</li>
-            </ul>
-            
-            <h3>Cost Comparison</h3>
-            <h4>PG Accommodation (Monthly):</h4>
-            <ul>
-                <li>Rent with meals: ₹8,000 - ₹15,000</li>
-                <li>Security deposit: 1-2 months rent</li>
-                <li>No additional bills</li>
-            </ul>
-            
-            <h4>Apartment (Monthly):</h4>
-            <ul>
-                <li>Rent: ₹10,000 - ₹25,000</li>
-                <li>Security deposit: 2-3 months rent</li>
-                <li>Utilities: ₹2,000 - ₹4,000</li>
-                <li>Food: ₹5,000 - ₹8,000</li>
-            </ul>
-            
-            <h3>Ideal For:</h3>
-            <h4>PG Accommodation:</h4>
-            <ul>
-                <li>Students</li>
-                <li>Young professionals</li>
-                <li>Short-term stays</li>
-                <li>Budget-conscious individuals</li>
-            </ul>
-            
-            <h4>Apartment:</h4>
-            <ul>
-                <li>Families</li>
-                <li>Working professionals</li>
-                <li>Those who value privacy</li>
-                <li>Long-term residents</li>
-            </ul>
-            
-            <h3>Making Your Decision</h3>
-            <p>Consider these factors:</p>
-            <ul>
-                <li>Budget constraints</li>
-                <li>Length of stay</li>
-                <li>Lifestyle preferences</li>
-                <li>Work/study location</li>
-                <li>Social needs</li>
-            </ul>
-            
-            <h3>Conclusion</h3>
-            <p>Both PG accommodation and apartments have their unique advantages. Your choice should align with your lifestyle, budget, and personal preferences. Take time to visit multiple options before making your decision.</p>
+          <div class="container my-5">
+  <h1 class="mb-4">PG vs Apartment: Making the Right Choice</h1>
+  <p class="lead">Are you moving to a new city and stuck between choosing a PG (Paying Guest) accommodation or renting an apartment? It’s a common dilemma, especially for students, working professionals, and first-time renters. Both options come with their own set of pros and cons, and the best choice ultimately depends on your lifestyle, budget, and personal preferences.</p>
+
+  <p>Let’s break it down so you can make the right decision with confidence.</p>
+
+  <h3 class="mt-5"><i class="bi bi-house-door-fill me-2"></i>What Is a PG?</h3>
+  <p>A <strong>Paying Guest (PG)</strong> setup is typically a room (shared or private) in a house managed by a landlord. Meals, utilities, and housekeeping are usually included. PGs are popular among students and freshers who want a budget-friendly, semi-furnished place without the hassle of managing daily chores.</p>
+
+  <h3 class="mt-4"><i class="bi bi-building me-2"></i>What About Apartments?</h3>
+  <p>An <strong>apartment</strong> is a self-contained housing unit that gives you complete privacy and independence. You rent the space (either alone or with roommates) and are responsible for managing your own food, cleaning, and utility bills. It’s ideal for those who want flexibility and long-term stability.</p>
+
+  <h3 class="mt-5"><i class="bi bi-search me-2"></i>PG vs Apartment – Key Differences</h3>
+
+  <div class="mt-4">
+    <h5><i class="bi bi-currency-rupee me-2"></i>1. Cost</h5>
+    <ul>
+      <li><strong>PG:</strong> Budget-friendly with meals and utilities often included.</li>
+      <li><strong>Apartment:</strong> Higher rent and separate expenses like electricity, internet, and maintenance.</li>
+    </ul>
+
+    <h5><i class="bi bi-shield-lock me-2"></i>2. Privacy</h5>
+    <ul>
+      <li><strong>PG:</strong> Shared living = less privacy.</li>
+      <li><strong>Apartment:</strong> Your own space = full privacy.</li>
+    </ul>
+
+    <h5><i class="bi bi-card-checklist me-2"></i>3. Rules & Freedom</h5>
+    <ul>
+      <li><strong>PG:</strong> Curfews, no guests, and house rules may apply.</li>
+      <li><strong>Apartment:</strong> Total freedom—you’re the boss of your own space.</li>
+    </ul>
+
+    <h5><i class="bi bi-egg-fried me-2"></i>4. Food & Facilities</h5>
+    <ul>
+      <li><strong>PG:</strong> Meals are usually provided, saving time.</li>
+      <li><strong>Apartment:</strong> You cook your own food or order out—more flexibility, but more effort.</li>
+    </ul>
+
+    <h5><i class="bi bi-broom me-2"></i>5. Housekeeping</h5>
+    <ul>
+      <li><strong>PG:</strong> Often includes cleaning services.</li>
+      <li><strong>Apartment:</strong> You clean yourself or hire help.</li>
+    </ul>
+  </div>
+
+  <h3 class="mt-5"><i class="bi bi-question-circle-fill me-2"></i>Which One Should You Choose?</h3>
+  <p>Here’s a simple way to decide:</p>
+
+  <div class="table-responsive">
+    <table class="table table-bordered table-striped">
+      <thead class="table-dark">
+        <tr>
+          <th>Criteria</th>
+          <th>Choose PG If...</th>
+          <th>Choose Apartment If...</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Budget</td>
+          <td>You want a low-cost option</td>
+          <td>You can afford extra expenses</td>
+        </tr>
+        <tr>
+          <td>Privacy</td>
+          <td>You don’t mind sharing</td>
+          <td>You value personal space</td>
+        </tr>
+        <tr>
+          <td>Lifestyle</td>
+          <td>You prefer a more managed setup</td>
+          <td>You want independence and flexibility</td>
+        </tr>
+        <tr>
+          <td>Duration</td>
+          <td>You're staying short-term</td>
+          <td>You’re settling in for the long haul</td>
+        </tr>
+        <tr>
+          <td>Cooking</td>
+          <td>You’d rather not cook</td>
+          <td>You enjoy or don’t mind cooking</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
         `
     }
 };
@@ -239,3 +245,4 @@ const blogPosts = {
 if (typeof module !== 'undefined' && module.exports) {
     module.exports = blogPosts;
 }
+
