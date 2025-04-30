@@ -59,7 +59,8 @@
         "name": "Harjeet Singh",
         "age": 45,
         "gender": "Male",
-        "image": "img/Blank.webp"
+        "image": "private_room/Kharar/00001/owner.jpg"
+
       },
 "map": "https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d13715.501780915436!2d76.635!3d30.750000000000004!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzDCsDQ1JzAwLjAiTiA3NsKwMzgnMDYuMCJF!5e0!3m2!1sen!2sus!4v1744975977198!5m2!1sen!2sus",
       "img": [
@@ -140,143 +141,151 @@
         ]
       },
       "00005": {
-        "name": "Non AC PG Room for Boys – 1st Floor, Kharar",
-        "price": "₹5,500/month",
-        "listingType": ["PG", "1st Floor", "Boys"],
-        "availability": "28-Feb-2024",
-        "location": "Kharar, Punjab",
-        "description": "Fully furnished non-AC room PG for boys with bed, bath, parking and cooking amenities. Ideal for students. Spacious 500 sq. ft. unit on the 1st floor.",
-        "specs": {
-          "beds": 1,
-          "bath": 1,
-          "parking": 1,
-          "areaSqFt": 500
-        },
-        "amenities": [
-          { "name": "Gas and Stove", "icon": "fas fa-fire" },
-          { "name": "Fully Furnished", "icon": "fas fa-couch" },
-          { "name": "Parking", "icon": "fas fa-parking" }
-        ],
-        "residenceDetails": {
-          "buildingType": "Independent Building",
-          "furnished": "Fully Furnished",
-          "moveInFee": "₹5,000",  
-          "utilitiesCost": "₹500",  
-          "securityDeposit": "₹10,000",  
-          "maintenanceFee": "₹200",  
-          "roomType": "Single Occupancy",
-          "floorNumber": "1"
-        },
-        "household": {
-          "ageRange": "18 - 30",
-          "gender": "Male",
-          "totalOccupants": 4,
-          "currentResidents": 2,
-          "language": ["Hindi", "Punjabi"]
-        },
-        "lifestyle": {
-          "cleanliness": "Moderate",
-          "overnightGuests": "Not Allowed",
-          "partyHabits": "Not Allowed",
-          "schedule": "Flexible",
-          "smoker": "No",
-          "workSchedule": "Flexible",
-          "occupation": "Student",
-          "petFriendly": "No",
-          "alcoholConsumption": "Not Allowed",
-          "dietaryPreferences": ["Vegetarian", "Non-Vegetarian"]
-        },
-        "roommatePreference": {
-          "ageRange": "18 - 30",
-          "smoking": "No",
-          "occupation": ["Student", "Working Professional"],
-          "gender": "Male",
-          "language": ["Hindi", "Punjabi"]
-        },
-        "owner": {
-          "name": "Nitin",
-          "age": 35,
-          "gender": "Male",
-          "image": "img/Blank.webp",
-          "listedProperties": 1,
-          "verified": true
-        },
-        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3428.662204936612!2d76.649911275374!3d30.755988674573015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ff00340000001%3A0x4ab009fe00508c75!2sAman%20City!5e0!3m2!1sen!2sin!4v1744977876948!5m2!1sen!2sin",
-        "img": [
-          "PG/Kharar/00002/1.jpg",
-          "PG/Kharar/00002/2.jpg",
-          "PG/Kharar/00002/3.jpg"
-        ]
-      },
+  "name": "Furnished Private Room – Shivalik City, Kharar",
+  "price": "₹4,500/month",
+  "listingType": ["Private Room", "Apartment", "Shivalik City"],
+  "availability": "Available Now",
+  "location": "Shivalik City, Kharar-Banur Road, Punjab 140301",
+  "description": "Private furnished room in a peaceful 3BHK apartment located in Shivalik City, Kharar. Nearby park, cafes, gym, 24/7 store, and transport. Ideal for students or professionals.",
+  "specs": {
+    "beds": 1,
+    "bath": 1,
+    "parking": 1,
+    "areaSqFt": 400
+  },
+  "amenities": [
+    { "name": "Air Conditioning", "icon": "fas fa-wind" },
+    { "name": "Fridge", "icon": "fas fa-snowflake" },
+    { "name": "Inverter Backup", "icon": "fas fa-plug" },
+    { "name": "Geyser", "icon": "fas fa-water" },
+    { "name": "Chimney", "icon": "fas fa-fan" },
+    { "name": "High-Speed WiFi", "icon": "fas fa-wifi" },
+    { "name": "Parking", "icon": "fas fa-parking" },
+    { "name": "Accessible Property", "icon": "fas fa-wheelchair" }
+  ],
+  "residenceDetails": {
+    "buildingType": "Apartment",
+    "furnished": "Fully Furnished",
+    "moveInFee": "₹0",
+    "utilitiesCost": "Not Included",
+    "securityDeposit": "₹4,500",
+    "maintenanceFee": "Included",
+    "roomType": "Private Room with Attached Bathroom",
+    "floorNumber": "Ground/1st"
+  },
+  "household": {
+    "ageRange": "18 - 35",
+    "gender": "Any",
+    "totalOccupants": 3,
+    "currentResidents": 2,
+    "language": ["Hindi", "Punjabi", "English"]
+  },
+  "lifestyle": {
+    "cleanliness": "Clean",
+    "overnightGuests": "Not Allowed",
+    "partyHabits": "Not Allowed",
+    "schedule": "Flexible",
+    "smoker": "No",
+    "workSchedule": "Mixed",
+    "occupation": "Student/Professional",
+    "petFriendly": "No",
+    "alcoholConsumption": "Not Allowed",
+    "dietaryPreferences": ["Vegetarian", "Non-Vegetarian"]
+  },
+  "roommatePreference": {
+    "ageRange": "18 - 35",
+    "smoking": "No",
+    "occupation": ["Student", "Working Professional"],
+    "gender": "Any",
+    "language": ["Hindi", "Punjabi", "English"]
+  },
+  "owner": {
+    "name": "Diksha",
+    "age": null,
+    "gender": "Female",
+    "image": "img/Blank.webp",
+    "listedProperties": 1,
+    "verified": true
+  },
+  "map": "https://www.google.com/maps?q=Shivalik+City+Kharar&output=embed",
+  "img": [
+    "private_room/Kharar/00002/1.webp",
+    "private_room/Kharar/00002/2.webp",
+    "private_room/Kharar/00002/3.webp"
+  ]
+}
+,
       "00006": {
-        "name": "Non AC PG Room for Boys – 1st Floor, Kharar",
-        "price": "₹5,500/month",
-        "listingType": ["PG", "1st Floor", "Boys"],
-        "availability": "28-Feb-2024",
-        "location": "Kharar, Punjab",
-        "description": "Fully furnished non-AC room PG for boys with bed, bath, parking and cooking amenities. Ideal for students. Spacious 500 sq. ft. unit on the 1st floor.",
-        "specs": {
-          "beds": 1,
-          "bath": 1,
-          "parking": 1,
-          "areaSqFt": 500
-        },
-        "amenities": [
-          { "name": "Gas and Stove", "icon": "fas fa-fire" },
-          { "name": "Fully Furnished", "icon": "fas fa-couch" },
-          { "name": "Parking", "icon": "fas fa-parking" }
-        ],
-        "residenceDetails": {
-          "buildingType": "Independent Building",
-          "furnished": "Fully Furnished",
-          "moveInFee": "₹5,000",  
-          "utilitiesCost": "₹500",  
-          "securityDeposit": "₹10,000",  
-          "maintenanceFee": "₹200",  
-          "roomType": "Single Occupancy",
-          "floorNumber": "1"
-        },
-        "household": {
-          "ageRange": "18 - 30",
-          "gender": "Male",
-          "totalOccupants": 4,
-          "currentResidents": 2,
-          "language": ["Hindi", "Punjabi"]
-        },
-        "lifestyle": {
-          "cleanliness": "Moderate",
-          "overnightGuests": "Not Allowed",
-          "partyHabits": "Not Allowed",
-          "schedule": "Flexible",
-          "smoker": "No",
-          "workSchedule": "Flexible",
-          "occupation": "Student",
-          "petFriendly": "No",
-          "alcoholConsumption": "Not Allowed",
-          "dietaryPreferences": ["Vegetarian", "Non-Vegetarian"]
-        },
-        "roommatePreference": {
-          "ageRange": "18 - 30",
-          "smoking": "No",
-          "occupation": ["Student", "Working Professional"],
-          "gender": "Male",
-          "language": ["Hindi", "Punjabi"]
-        },
-        "owner": {
-          "name": "Nitin",
-          "age": 35,
-          "gender": "Male",
-          "image": "img/Blank.webp",
-          "listedProperties": 1,
-          "verified": true
-        },
-        "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3428.662204936612!2d76.649911275374!3d30.755988674573015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ff00340000001%3A0x4ab009fe00508c75!2sAman%20City!5e0!3m2!1sen!2sin!4v1744977876948!5m2!1sen!2sin",
-        "img": [
-          "PG/Kharar/00002/1.jpg",
-          "PG/Kharar/00002/2.jpg",
-          "PG/Kharar/00002/3.jpg"
-        ]
-      }
+  "name": "Furnished PG Room Near Bus Stand – Kharar",
+  "price": "₹5,500/month",
+  "listingType": ["PG", "Private Room"],
+  "availability": "Available Now",
+  "location": "Kharar, Punjab",
+  "description": "Private room available near Kharar Bus Stand with full furnishings, high-speed WiFi, CCTV, and 24/7 utilities. Ideal for students and working professionals.",
+  "specs": {
+    "beds": 1,
+    "bath": 1,
+    "parking": 1,
+    "areaSqFt": 500
+  },
+  "amenities": [
+    { "name": "High-Speed WiFi", "icon": "fas fa-wifi" },
+    { "name": "CCTV Security", "icon": "fas fa-video" },
+    { "name": "Fully Furnished", "icon": "fas fa-couch" },
+    { "name": "Parking", "icon": "fas fa-parking" },
+    { "name": "24/7 Electricity & Water", "icon": "fas fa-bolt" }
+  ],
+  "residenceDetails": {
+    "buildingType": "Independent House",
+    "furnished": "Fully Furnished",
+    "moveInFee": "₹5,000",
+    "utilitiesCost": "Included",
+    "securityDeposit": "₹10,000",
+    "maintenanceFee": "₹200",
+    "roomType": "Private Room",
+    "floorNumber": "Ground/1st"
+  },
+  "household": {
+    "ageRange": "18 - 35",
+    "gender": "Any",
+    "totalOccupants": 4,
+    "currentResidents": 2,
+    "language": ["Hindi", "Punjabi", "English"]
+  },
+  "lifestyle": {
+    "cleanliness": "Moderate",
+    "overnightGuests": "Not Allowed",
+    "partyHabits": "Not Allowed",
+    "schedule": "Flexible",
+    "smoker": "No",
+    "workSchedule": "Flexible",
+    "occupation": "Mixed",
+    "petFriendly": "No",
+    "alcoholConsumption": "Not Allowed",
+    "dietaryPreferences": ["Vegetarian", "Non-Vegetarian"]
+  },
+  "roommatePreference": {
+    "ageRange": "18 - 35",
+    "smoking": "No",
+    "occupation": ["Student", "Working Professional"],
+    "gender": "Any",
+    "language": ["Hindi", "Punjabi", "English"]
+  },
+  "owner": {
+    "name": "Tajinder Saini",
+    "age": null,
+    "gender": "Male",
+    "image": "private_room/Kharar/00001/owner.jpg",
+    "listedProperties": 1,
+    "verified": true
+  },
+  "map": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27431.92486761255!2d76.65315269999999!3d30.746765299999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fe555e7bf2e91%3A0xffb409b433075d3!2sKharar%2C%20Punjab%20140301!5e0!3m2!1sen!2sin!4v1745997552561!5m2!1sen!2sin",
+  "img": [
+    "private_room/Kharar/00001/1.webp",
+    "private_room/Kharar/00001/2.webp",
+    "private_room/Kharar/00001/3.webp"
+  ]
+}
     },
     "mohali" :{
       "00002": {
@@ -636,7 +645,8 @@
           "PG/Zirakpur/00001/8.jpg"
           
         ]
-      },"00010": {
+      },
+      "00010": {
         "name": "Non AC PG Room for Girls – 1st Floor, Golden Enclave",
         "price": "₹4,000/month",
         "listingType": ["PG", "1st Floor", "Girls"],

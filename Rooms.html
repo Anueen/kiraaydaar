@@ -196,16 +196,26 @@
 
             const genderTag = (property.household?.gender || '').toLowerCase();
 
-            if (type && !listingTypes.includes(type.toLowerCase())) return;
+            if (type) {
+              const typeValue = type.toLowerCase();
+              const matchesType = listingTypes.some(lt => {
+                if (typeValue === 'private_room' && lt === 'private room') return true;
+                if (typeValue === 'pg' && lt === 'pg') return true;
+                if (typeValue === 'flat' && lt === 'flat') return true;
+                return false;
+              });
+              if (!matchesType) return;
+            }
 
             if (preference) {
               const pref = preference.toLowerCase();
+              const genderIsAny = genderTag === 'any';
               const isMale = genderTag === 'male' || genderTag === 'boys';
               const isFemale = genderTag === 'female' || genderTag === 'girls';
 
-              if ((pref === 'boys' || pref === 'male') && !isMale) return;
-              if ((pref === 'girls' || pref === 'female') && !isFemale) return;
-              if (pref === 'family' && (isMale || isFemale)) return;
+              if ((pref === 'boys' || pref === 'male') && !isMale && !genderIsAny) return;
+              if ((pref === 'girls' || pref === 'female') && !isFemale && !genderIsAny) return;
+              if (pref === 'family' && (isMale || isFemale) && !genderIsAny) return;
             }
 
             if (location && !property.location.toLowerCase().includes(location.toLowerCase())) return;
